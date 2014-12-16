@@ -22,6 +22,7 @@
 		C21313571A0A6DEF006C7437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21313361A0A6DEF006C7437 /* UIKit.framework */; };
 		C213135F1A0A6DEF006C7437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C213135D1A0A6DEF006C7437 /* InfoPlist.strings */; };
 		C21313611A0A6DF0006C7437 /* Bryant_P_D_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21313601A0A6DF0006C7437 /* Bryant_P_D_Tests.m */; };
+		C213136C1A0A6F43006C7437 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C213136B1A0A6F43006C7437 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		C213135C1A0A6DEF006C7437 /* Bryant P.D.Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bryant P.D.Tests-Info.plist"; sourceTree = "<group>"; };
 		C213135E1A0A6DEF006C7437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C21313601A0A6DF0006C7437 /* Bryant_P_D_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bryant_P_D_Tests.m; sourceTree = "<group>"; };
+		C213136A1A0A6F43006C7437 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C213136B1A0A6F43006C7437 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				C21313481A0A6DEF006C7437 /* FirstViewController.m */,
 				C213134A1A0A6DEF006C7437 /* SecondViewController.h */,
 				C213134B1A0A6DEF006C7437 /* SecondViewController.m */,
+				C213136A1A0A6F43006C7437 /* ThirdViewController.h */,
+				C213136B1A0A6F43006C7437 /* ThirdViewController.m */,
 				C213134D1A0A6DEF006C7437 /* Images.xcassets */,
 				C21313391A0A6DEF006C7437 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C213134C1A0A6DEF006C7437 /* SecondViewController.m in Sources */,
+				C213136C1A0A6F43006C7437 /* ThirdViewController.m in Sources */,
 				C21313431A0A6DEF006C7437 /* AppDelegate.m in Sources */,
 				C21313491A0A6DEF006C7437 /* FirstViewController.m in Sources */,
 				C213133F1A0A6DEF006C7437 /* main.m in Sources */,
@@ -462,6 +468,7 @@
 				C21313661A0A6DF0006C7437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C21313671A0A6DF0006C7437 /* Build configuration list for PBXNativeTarget "Bryant P.D.Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				C21313691A0A6DF0006C7437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
